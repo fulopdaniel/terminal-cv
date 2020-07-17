@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fulopdaniel/terminal-cv/static/css/main.525ff601.chunk.css",
+    "main.js": "/fulopdaniel/terminal-cv/static/js/main.ed9e7a23.chunk.js",
+    "main.js.map": "/fulopdaniel/terminal-cv/static/js/main.ed9e7a23.chunk.js.map",
+    "runtime-main.js": "/fulopdaniel/terminal-cv/static/js/runtime-main.7188f9b4.js",
+    "runtime-main.js.map": "/fulopdaniel/terminal-cv/static/js/runtime-main.7188f9b4.js.map",
+    "static/js/2.bd06bdf8.chunk.js": "/fulopdaniel/terminal-cv/static/js/2.bd06bdf8.chunk.js",
+    "static/js/2.bd06bdf8.chunk.js.map": "/fulopdaniel/terminal-cv/static/js/2.bd06bdf8.chunk.js.map",
+    "index.html": "/fulopdaniel/terminal-cv/index.html",
+    "precache-manifest.204a9e6106303f5431bb9070b0c0df9d.js": "/fulopdaniel/terminal-cv/precache-manifest.204a9e6106303f5431bb9070b0c0df9d.js",
+    "service-worker.js": "/fulopdaniel/terminal-cv/service-worker.js",
+    "static/css/main.525ff601.chunk.css.map": "/fulopdaniel/terminal-cv/static/css/main.525ff601.chunk.css.map",
+    "static/js/2.bd06bdf8.chunk.js.LICENSE.txt": "/fulopdaniel/terminal-cv/static/js/2.bd06bdf8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7188f9b4.js",
+    "static/js/2.bd06bdf8.chunk.js",
+    "static/css/main.525ff601.chunk.css",
+    "static/js/main.ed9e7a23.chunk.js"
+  ]
+}
