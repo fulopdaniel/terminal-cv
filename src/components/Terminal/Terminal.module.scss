@@ -1,0 +1,39 @@
+.mobile {
+  display: none;
+}
+
+.terminal {
+  background: black;
+  border-radius: 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  outline: none;
+  color: white;
+  border: 1px solid rgb(104, 104, 104);
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  padding: 10px;
+}
+
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: white; /* Gecko Browsers */
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .terminal {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    height: 100%;
+  }
+}
