@@ -7,6 +7,7 @@ import {
   EDUCATION_COMMAND,
   PUBLICATIONS_COMMAND,
   CONTACT_COMMAND,
+  PROJECTS_COMMAND,
 } from "../Commands/Commands";
 import Prefix from "./TerminalInput/Prefix/Prefix";
 
@@ -26,6 +27,9 @@ export const TerminalUtil = {
     }
     if (COMMAND_LIST.publications.includes(command)) {
       return PUBLICATIONS_COMMAND;
+    }
+    if (COMMAND_LIST.projects.includes(command)) {
+      return PROJECTS_COMMAND;
     }
     if (COMMAND_LIST.contact.includes(command)) {
       return CONTACT_COMMAND;

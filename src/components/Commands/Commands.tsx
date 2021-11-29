@@ -9,6 +9,7 @@ export const COMMAND_LIST = {
   education: ["cv --education", "cv -ed"],
   publications: ["cv --publications", "cv -pub"],
   contact: ["cv --contact", "cv -c"],
+  projects: ["cv --projects", "cv -p"],
 };
 
 export const NotFound = (command: string) => <span>command '{command}' not found</span>;
@@ -123,6 +124,33 @@ NPM:
   </span>
 );
 
+export const PROJECTS_COMMAND = (
+  <span>
+    {`Projects:
+• `}
+    <a
+      className={css.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://remotextra.com"
+    >
+      remotextra.com
+    </a>
+    {`
+• `}
+    <a
+      className={css.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://productlist.io"
+    >
+      productlist.io
+    </a>
+    {`
+`}
+  </span>
+);
+
 export const EXPERIENCE_COMMAND = (
   <span>{`Experience:
 
@@ -146,7 +174,7 @@ Responsibilities:
 
 ====================================================
 
- Front end developer @ Betsson Group       Jan 2019 - Present
+ Front end developer @ Betsson Group       Jan 2019 - Jan 2021
 
 Responsibilities:
  •  Developed new features for an international project
@@ -156,6 +184,16 @@ Responsibilities:
  •  Coordinated the release process multiple times
  •  Communicated with PO's about potential issues and solutions
  •  Helped newcomers with onboarding, was assigned mentor
+
+ ====================================================
+
+ Senior Full Stack developer @ TCS       Jan 2021 - Present
+
+Responsibilities:
+•  Translating client needs into Next.js applications
+•  Meeting with stakeholders, leading processes, mentoring teammates
+•  Maintaining company landing pages
+•  Migrating legacy codebase to typescript
 
 `}</span>
 );
