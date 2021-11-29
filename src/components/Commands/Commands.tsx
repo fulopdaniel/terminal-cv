@@ -9,7 +9,7 @@ export const COMMAND_LIST = {
   education: ["cv --education", "cv -ed"],
   publications: ["cv --publications", "cv -pub"],
   contact: ["cv --contact", "cv -c"],
-  projects: ["cv --projects", "cv -p"],
+  projects: ["cv --projects", "cv -pr"],
 };
 
 export const NotFound = (command: string) => <span>command '{command}' not found</span>;
@@ -27,6 +27,7 @@ Options:
  --experience | -e          Employment history
  --education | -ed          Education history
  --publications | -pub      Published articles and packages
+ --projects | -pr           Side Projects
  --contact | -c             Contact informations
 
 (use 'clear' to clear the window)
